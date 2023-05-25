@@ -1,0 +1,215 @@
+
+body{
+    display: block;
+     background-color: aliceblue;
+    margin: -13px -10px 10px -10px;
+}
+
+#nav{
+    background-color: rgb(219, 231, 241);
+    height: 60px;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    
+}
+#heading{
+    display: block;
+    margin: 100px auto 30px auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    /* height: 70px; */
+    /* border: 1px solid black; */
+    width: 30%;
+    border: 2px solid black;
+    
+}
+#photo1{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    /* background-color: bisque; */
+    padding: 20px;
+    /* background-image: url("project\ video.mp4"); */
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    height: 300px;
+    width: 600px;
+}
+.photo2{
+    width: 600px;
+    height: 350px;
+    border:2px solid rgb(49, 30, 30);
+    border-radius: 5px;
+    
+    
+}
+
+#img1{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#whythis{
+    text-align: center;
+    /* height: 300px; */
+    /* background-color:mediumorchid; */
+    padding: 1px;
+    margin: 0px 100px;
+    font-size: larger;
+}
+.state{
+    font-weight: bold;
+}
+#components{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /* height: 345px; */
+    /* background-color: rgb(248, 195, 20); */
+    /* height: 600px; */
+}
+.cards{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap ;
+    }
+/* .cards1{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+    text-align: center;
+} */
+.card{
+    display: flex;
+    
+    background-color: rgb(162, 173, 182);
+    border: 3px solid rgb(70, 83, 94);
+    border-radius: 5px;
+    width: 215px;
+    padding: 20px;
+    margin: 5px;
+    
+}
+
+
+#para{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+     
+}
+.gaji{
+    width: 89px;
+    padding: 9px;
+    border-radius: 40%;
+}
+.navlist ul{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    list-style-type: none;
+    align-items: center;
+}
+.navlist li{
+    text-decoration: none;
+
+}
+.navlist ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: rebeccapurple;
+    text-align: center;
+}
+.working{
+    text-align: center;
+    font-size: large;
+    margin: 0px 100px;
+
+}
+.team{
+    text-align: center;
+}
+.info{
+    display: block;
+    background-color: rgb(162, 173, 182);
+    width: 200px;
+    margin: 10px auto;
+    padding: 9px;
+    border: 3px solid rgb(70, 83, 94);
+    border-radius: 4px;
+}
+.mem{
+    width: 100px;
+    padding: 9px;
+    border-radius: 100%;
+}
+
+.bio{
+     display: flex;
+     flex-wrap: wrap;
+     }
+.bio1{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    
+
+     }
+.footer{
+    background-color: rgb(70, 83, 94);
+     margin-top: 26px;
+    padding: 20px 0px 10px 20px;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: aqua;
+    
+}
+.pfoot{
+    margin: 9px;
+}
+.lfoot{
+    margin-top: 20px;
+    padding-bottom: 150px;
+}
+.foot li {
+    text-align:start;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+.foot ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.about{
+    margin-right: 110px;
+    color: aliceblue;
+}
+.contact h4{
+    color: aliceblue;
+    
+}
+.icons{
+text-align: start;
+}
+.mail{
+ margin-bottom: 8px;  
+}
+.lfoot i{
+    margin-right: 8px
+} 
+/* .ul li a.hover{
+    color: ;
+} */
