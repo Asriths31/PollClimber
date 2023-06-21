@@ -3,54 +3,71 @@ body{
     display: block;
      background-color: aliceblue;
     margin: -13px -10px 10px -10px;
+    text-align: center;
 }
 
 #nav{
     background-color: rgb(219, 231, 241);
-    height: 60px;
+    height: 100px;
+    box-shadow: 50px;
     margin-bottom: 40px;
     position: fixed;
     width: 100%;
     top: 0;
     right: 0;
+    box-shadow:3px 7px 10px #8888;
+    
+}
+.navlist ul{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navlist ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(23, 90, 92);
+    text-align: center;
+}
+.navlist ul li a:hover{
+    background-color: rgb(18, 214, 214);
+    border-radius: 40px;
+    transition-delay: 20ms;
+    transition-duration: 760ms;
     
 }
 #heading{
     display: block;
-    margin: 100px auto 30px auto;
+    margin: 150px auto 30px auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     /* height: 70px; */
     /* border: 1px solid black; */
     width: 30%;
-    border: 2px solid black;
-    
+    border: 2px  black;
 }
 #photo1{
     display: block;
     text-align: center;
-    margin-bottom: 5px;
-    /* background-color: bisque; */
-    padding: 20px;
-    /* background-image: url("project\ video.mp4"); */
-    background-repeat:no-repeat;
     margin: 0 auto;
-    height: 300px;
-    width: 600px;
 }
 .photo2{
-    width: 600px;
     height: 350px;
     border:2px solid rgb(49, 30, 30);
     border-radius: 5px;
-    
-    
 }
 
 #img1{
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
-    
+}
+.intro{
+font-size: large;
+margin: 0 100px;
+padding: 1px;
 }
 #whythis{
     text-align: center;
@@ -86,14 +103,19 @@ body{
 } */
 .card{
     display: flex;
-    
+    align-items: center;
     background-color: rgb(162, 173, 182);
     border: 3px solid rgb(70, 83, 94);
     border-radius: 5px;
-    width: 215px;
+    width: 415px;
     padding: 20px;
     margin: 5px;
+    height: 240px;
     
+}
+.card li {
+    padding-bottom: 20px;
+    text-align: start;
 }
 
 
@@ -101,29 +123,20 @@ body{
     margin-top: 40px;
     text-align: center;
     font-weight: bold;
+    
      
 }
 .gaji{
-    width: 89px;
-    padding: 9px;
+    width: 140px;
+    /* padding: 70px 9px 9px 9px; */
     border-radius: 40%;
-}
-.navlist ul{
-    display: flex;
-    justify-content: right;
-    padding: 10px;
-    list-style-type: none;
-    align-items: center;
-}
-.navlist li{
-    text-decoration: none;
 
 }
-.navlist ul li a{
-    padding: 10px;
-    text-decoration: none;
-    color: rebeccapurple;
-    text-align: center;
+.gaji1{
+    width: 140px;
+    border-radius: 40%;
+    margin-right:19px ;
+
 }
 .working{
     text-align: center;
@@ -131,17 +144,22 @@ body{
     margin: 0px 100px;
 
 }
+
+.flow{
+    width: 490px;
+}
 .team{
     text-align: center;
 }
 .info{
     display: block;
     background-color: rgb(162, 173, 182);
-    width: 200px;
+    width: 280px;
     margin: 10px auto;
     padding: 9px;
     border: 3px solid rgb(70, 83, 94);
     border-radius: 4px;
+    text-align: center;
 }
 .mem{
     width: 100px;
@@ -160,6 +178,16 @@ body{
     
 
      }
+     .mail {
+        text-align: center;
+        font-weight: 600;
+    }
+    .link{
+        margin: 9px;
+        text-align:center;
+        font-weight: 600;
+    
+    }
 .footer{
     background-color: rgb(70, 83, 94);
      margin-top: 26px;
@@ -171,7 +199,7 @@ body{
 }
 .foot{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     color: aqua;
     
@@ -193,6 +221,9 @@ body{
     text-decoration: none;
     color: aqua;
 }
+.foot ul li a:hover{
+    text-shadow: 0px 1px 9px antiquewhite;
+}
 .about{
     margin-right: 110px;
     color: aliceblue;
@@ -201,8 +232,16 @@ body{
     color: aliceblue;
     
 }
+.contact span{
+    color:azure;
+    margin-left: 9px;
+}
 .icons{
 text-align: start;
+border: 1px transparent wheat;
+}
+.icons:hover{
+      text-shadow: 2px 1px 4px wheat;
 }
 .mail{
  margin-bottom: 8px;  
@@ -213,3 +252,289 @@ text-align: start;
 /* .ul li a.hover{
     color: ;
 } */
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:430px) {
+    body{
+        display: block;
+         background-color: aliceblue;
+        text-align: center;
+    }
+
+    
+    #nav{
+        background-color: rgb(219, 231, 241);
+        height: 100px;
+        box-shadow: 50px;
+        margin-bottom: 40px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        box-shadow:3px 7px 10px #8888;
+        text-align: start;
+        
+    }
+    .navlist ul{
+        display: block;
+        list-style-type: none;
+        text-align: right;
+        
+        
+    }
+    
+    .navlist ul li a{
+        padding: 04px;
+        margin: 4px;
+        text-decoration: none;
+        color:rgb(23, 90, 92);
+        text-align: center;
+    }
+    .navlist ul li a:hover{
+        background-color: rgb(18, 214, 214);
+        border-radius: 40px;
+        
+        transition-delay: 20ms;
+        transition-duration: 760ms;
+        
+    }
+    #heading h1{
+        display: block;
+        margin: 150px auto 30px auto;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align:center;
+        /* height: 70px; */
+        /* border: 1px solid black; */
+        width: 100%;
+    
+    }
+    #photo1{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .photo2{
+        height: 350px;
+        border:2px solid rgb(49, 30, 30);
+        border-radius: 5px;
+    }
+    
+    #img1{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .intro{
+    font-size: large;
+    margin: 2px;
+    padding: 0 30px;
+    
+    }
+    #whythis{
+        text-align: center;
+        /* height: 300px; */
+        /* background-color:mediumorchid; */
+        padding: 1px;
+        margin: 0 30px;
+        font-size: larger;
+    }
+    .state{
+        font-weight: bold;
+    }
+    #components{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        /* height: 345px; */
+        /* background-color: rgb(248, 195, 20); */
+        /* height: 600px; */
+    }
+    .cards{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap:wrap ;
+        }
+    /* .cards1{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        
+        text-align: center;
+    } */
+    .card{
+        display: flex;
+        align-items: center;
+        background-color: rgb(162, 173, 182);
+        border: 3px solid rgb(70, 83, 94);
+        border-radius: 5px;
+        width: 215px;
+        padding: 20px;
+        margin: 5px;
+        height: 240px;
+        
+    }
+    .card li {
+        padding-bottom: 20px;
+        text-align: start;
+        font-size: 10px;
+        
+    }
+    .card-data{
+        /* display: none; */
+    }
+    
+    #para{
+        margin-top: 40px;
+        text-align: center;
+        font-weight: bold;
+        
+         
+    }
+    .gaji{
+        width: 100px;
+        /* padding: 70px 9px 9px 9px; */
+        border-radius: 40%;
+    
+    }
+    .gaji1{
+        width: 100px;
+        border-radius: 40%;
+        margin-right:19px ;
+    
+    }
+    .working{
+        text-align: center;
+        font-size: large;
+        margin: 2px;
+        padding: 0 30px;
+    
+    }
+    
+    .flow{
+        width: 490px;
+    }
+    .team{
+        text-align: center;
+    }
+    .info{
+        display: block;
+        word-wrap:break-word;
+        background-color: rgb(162, 173, 182);
+        width: 140px;
+        margin: 10px auto;
+        padding: 9px;
+        border: 3px solid rgb(70, 83, 94);
+        border-radius: 4px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .mem{
+        width: 60px;
+        padding: 9px;
+        border-radius: 100%;
+    }
+    
+    .bio{
+         display: flex;
+         flex-wrap: wrap;
+         }
+    .bio1{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        
+    
+         }
+         .mail {
+            text-align: center;
+            
+        }
+        .link{
+            margin: 9px;
+            text-align:center;
+
+        
+        }
+    .footer{
+        background-color: rgb(70, 83, 94);
+         margin-top: 26px;
+         width: auto;
+        text-align: center;
+        color:aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .foot{
+        display: block;
+    
+        color: aqua;
+        
+        
+    }
+    
+    .lfoot{
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .foot li {
+        text-align:start;
+        text-decoration: none;
+        list-style-type: none;
+       
+    }
+    .foot ul li a{
+        text-decoration: none;
+        color: aqua;
+        
+        
+    }
+    .foot ul li a:hover{
+        text-shadow: 0px 1px 9px antiquewhite;
+    }
+    .about{
+        display: block;
+        width: 100%;
+        
+        color: aliceblue;
+        text-align: cente
+        
+    }
+    .about ul{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .contact h4{
+        color: aliceblue;
+        text-align: center;
+        
+    }
+    .contact span{
+        color:azure;
+        margin-left: 9px;
+    }
+    .icons{
+    text-align: start;
+    border: 1px transparent wheat;
+    }
+    .icons:hover{
+          text-shadow: 2px 1px 4px wheat;
+    }
+    .mail{
+     margin-bottom: 8px;  
+    }
+    .lfoot i{
+        margin-right: 8px
+    } 
+    /* .ul li a.hover{
+        color: ;
+    } */
+    
+    .link a{
+        text-decoration: none;
+        color: black;
+    }
+}

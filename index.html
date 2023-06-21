@@ -13,19 +13,24 @@
      <div class="navlist">
         <ul>
             <li><a href="#whythis">whythis</a></li>
-            <li><a href="#">components</a></li>
-            <li><a href="#">working</a></li>
+            <li><a href="#components">components</a></li>
+            <li><a href="#working">working</a></li>
         </ul>
      </div>
     </div>
     <div id="heading">
         <h1>POLE CLIMBER</h1>
-        
-    </div>
+        </div>
     <div id="photo1">
         <video src="project video.mp4" class="photo2" controls autoplay>video failed</video>
     </div>
     <p id="img1">Demonstration of our Project</p>
+    <div class="intro">
+        <h2>INTRODUCTION</h2>
+        <P>The main aim of the project is to design climbing robot to climb the electrical pole for giving tools to the electric man. Robot can be controlled by the RF Communication. This project is mainly used to give the required tool for electrical line man.
+            The principle theory which is used in the pole climbing robot is elaborated the control system of pole climbing robot is designed. Analysis shows that the mechanism has the characteristics of compact body,easy control,good move characteristics,and is a promising application of pole climbing robot structure. Our prototype of pole climbing robot has the capability to climb over the poles and perform the desired task smoothly. we need to design a wireless circuit which helps robot climb on the pole, can be controlled using wireless technology like RF Technology.
+                       The H-bridge is used to control the direction of the motors used for climbing purpose. Two switching arrays are used for controlling the robot The RF modules uses Transmitter, Receiver, RF Encoder and RF Decoder. The two switches are interfaced to the RF transmitter through RF Encoder. The encoder continuously reads the status of the switches, passes the data to the RF transmitter and the transmitter transmits the data.</P>
+    </div>
     <div id="whythis" class="whythis">
         <h2>WHY THIS ?</h2>
         <p> <p class="state" >PROBLEM STATEMENT:</p>
@@ -53,36 +58,100 @@
                 <div class="img"><img src="rf remote.jpeg" alt="" class="gaji"></div>
             <div> 
                 <p id="para">R.F REMOTE</p>
-            </div>
+                <ul>
+                <li>There are four buttons on the remote control and respectively correspond to the four data bits to the receiving board output pin D0, D1, D2, and D3.</li>
+                 <li>Press the buttons to transmit signals, the corresponding data bit is output high.</li>
+                </ul>
+                </div>
             </div>
             <div class="card">
                 <div class="img">
-                    <img src="transmitter.jpeg" alt="" class="gaji">
+                    <img src="transmitter.jpeg" alt="" class="gaji1">
                 </div>
-              <p id="para">TRANSMITTER</p>
+                <div>
+                    <p id="para">TRANSMITTER</p>
+              <p>Features of RF Transmitter</p>
+              <ul>
+                <li>433.92 MHz FRequency</li>
+                <li>low cost</li>
+                <li>1.5-12v operation</li>
+              </ul>
+                </div>
+              
             </div>
             <div class="card">
                 <div class="img">
                     <img src="battery.jpeg" alt="" class="gaji">
                 </div>
-               <P id="para">BATTERY</P>
+                <div>
+                    <P id="para">REGULATED POWER SUPPLY</P>
+                    <ul>
+                        <li>a power supply can include a poer distribution system as well as primary and secondary sources of energy</li>
+                        <li>batteries</li>
+                        <li>solar powers</li>
+                        <li>generators or alternators</li>
+                    </ul>
+                </div>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="reciever.jpeg" alt="" class="gaji">
                 </div>
-                <p id="para">RECIEVER</p>
+                <div>
+                    <p id="para">RECIEVER</p>
+                    <p>Features</p>
+                    <ul>
+                        <li>Low power consumption</li>
+                        <li>Easy for Application</li>
+                        <li>Operation Voltage 5V</li>
+                        <li>availble frequency at 35/434 MHz</li>
+                    </ul>
+
+                </div>
             </div>
             <div class="card">
                 <div class="img">
                     <img src="dcmotor.jpeg" alt="" class="gaji">
                 </div>
-                <p id="para">D.C MOTOR</p></div>
+                <div class="card-data">
+                    <p id="para">D.C MOTOR</p>
+                     <ul>
+                        <li>A dc motor uses electrical energy to produce
+                             mechanical energy, very typically through the
+                              interaction of magnetic fields and current-carrying
+                               conductors. The reverse process, producing 
+                               electrical energy from mechanical energy, 
+                               is accomplished by an alternator, generator or
+                                dynamo. </li>
+                    </ul>
+                </div>
+            </div>
                 <div class="card">
                     <div class="img" id="drive">
                         <img src="dc motor drive.jpeg" alt="" class="gaji">
                     </div>
-                    <p id="para">D.C MOTOR DRIVE</p></div>
+                    <div>
+                        <p id="para">D.C MOTOR DRIVE</p>
+                        <p>Features</p>
+                        <ul>
+                            <li>High operaating voltage,Which can be upto 40V</li>
+                            <li>Large output current,The instantaneous peak current can be upto 3A</li>
+                            <li>With 25W rated power</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="microcontroller.jpeg" alt="" class="gaji">
+                    </div>
+                    <div>
+                        <p id="para">MICROCONTROLLER</p>
+                         <ul>
+                            <li>A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system. A typical microcontroller includes a processor, memory and input/output (I/O) peripherals on a single chip.
+                                Sometimes referred to as an embedded controller or microcontroller unit (MCU). </li>
+                        </ul>
+                    </div>
+                </div>
     
 
         </div>
@@ -90,6 +159,11 @@
     </div>
     <div class="working">
         <h2>WORKING</h2>
+   <div class="work">
+    <div class="flowchart">
+        <img src="flowchart1.jpeg" alt="" class="flow">
+    </div>
+        <div class="matter">
         <p>RF Controlled electrical pole climbing
              robot mainly contain: RF Transmitter, RF Received, Micarentielle
              , DC moles Rechargable Battery. Transmitter ende
@@ -99,6 +173,9 @@
                L298Nmton driver. It command the robot to move in a sparified directic
                 [vo/down]. Operating range in deproximately 60 meters
         </p>
+        </div>
+        
+    </div>
     </div>
     <div class="team">
         <h2>TEAM MEMBERS</h2>
@@ -113,11 +190,11 @@
                 <div class="icons">
                     <div class="mail">
                         <i class="fa-solid fa-envelope fa-xl" id="mail"></i>
-                        <span class="details"></span>
+                        <span class="details">macharlaramakrishna3@gmail.com</span>
                     </div>
                     <div class="link">
-                        <i class="fa-brands fa-linkedin fa-xl" ></i>
-                        <span class="details"></span>
+                       <a href="https://www.linkedin.com/in/macharla-ramakrishna-604ab2248"><i class="fa-brands fa-linkedin fa-xl" id="mail"></i></a>
+                        <span class="details">Macharla Ramakrishna</span>
                     </div>
                     </div>
             </div>
@@ -131,11 +208,11 @@
                     <div class="icons">
                         <div class="mail">
                             <i class="fa-solid fa-envelope fa-xl" id="mail"></i>
-                            <span class="details"></span>
+                            <span class="details">chandoorusudheer@gmail.com</span>
                         </div>
                         <div class="link">
-                            <i class="fa-brands fa-linkedin fa-xl" ></i>
-                            <span class="details"></span>
+                           <a href="https://www.linkedin.com/in/ch-sudheer-kumar-a1a586256"> <i class="fa-brands fa-linkedin fa-xl" ></i></a>
+                            <span class="details">Ch Sudheer Kumar</span>
                         </div>
                         </div>               
                      </div>
@@ -149,11 +226,11 @@
                     <div class="icons">
                         <div class="mail">
                             <i class="fa-solid fa-envelope fa-xl" id="mail"></i>
-                            <span class="details"></span>
+                            <span class="details">narendermulinti13@gmail.com</span>
                         </div>
                         <div class="link">
-                            <i class="fa-brands fa-linkedin fa-xl" ></i>
-                            <span class="details"></span>
+                            <a href="https://www.linkedin.com/in/narender-m-92611524b"><i class="fa-brands fa-linkedin fa-xl" ></i></a>
+                            <span class="details">Narendar M</span>
                         </div>
                         </div>
                 </div>
@@ -166,12 +243,12 @@
                     <h4>Rakesh</h4>
                     <div class="icons">
                     <div class="mail">
-                        <i class="fa-solid fa-envelope fa-xl" id="mail"></i>
-                        <span class="details"></span>
+                        <i class="fa-solid fa-envelope fa-xl" id="mail"> </i>
+                        <span class="details">kkrakesh047@gmail.com</span>
                     </div>
                     <div class="link">
-                        <i class="fa-brands fa-linkedin fa-xl" ></i>
-                        <span class="details"></span>
+                        <a href=" https://www.linkedin.com/in/k-rakesh-a20398268/"><i class="fa-brands fa-linkedin fa-xl" ></i></a>
+                        <span class="details">K Rakesh</span>
                     </div>
                     </div>
                     
@@ -188,24 +265,28 @@
     </div>
     </div>
     <div class="footer">
-        <h3>Team name</h3>
+        <h3>AboutUs</h3>
         <div class="foot">
           <div class="about">
-               <h4>About Us</h4>
+               <h4>Contents</h4>
                <ul>
-                <li><a href="#">Whythis</a></p></li>
-                <li><a href="#"><p>Components</p></a></li>
-                <li><a href="#"><p>Working</p></a></li>
-                <li><a href="#"><p>Team members</p></a></li>
+                <div>
+                <li><a href="#whythis"><p>Whythis</p></a></li>
+                <li><a href="#components"><p>Components</p></a></li>
+                </div>
+                <div>
+                <li><a href="#working"><p>Working</p></a></li>
+                <li><a href="#bio1"><p>Team members</p></a></li>
+                </div>
                </ul>
             </div>
             <div class="contact">
                 <h4>Contact Us</h4>
                 <ul>
-                    <li><p>Email id:<a href="#">raajamouli@gmail.com</p></li>
-                    <li><p>LinkedIn:<a href="#"></a></p></li>
-                    <li><p>Twitter:<a href="#"></a></p></li>
-                    <li><p>Whatsapp:<a href="#"></a></p></li>
+                    <li><p>Email id:<a href="#"><span>macharlaramakrishna3@gmail.com</span></a></p></li>
+                    <li><p>LinkedIn:<a href="https://www.linkedin.com/in/macharla-ramakrishna-604ab2248"><span></span></a></p></li>
+                    <li><p>Twitter:<a href="#"><span></span></a></p></li>
+                    <li><p>Whatsapp:<a href="#"><span></span></a></p></li>
                    </ul>
             </div>
          </div>
