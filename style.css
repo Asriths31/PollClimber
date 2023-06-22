@@ -2,7 +2,6 @@
 body{
     display: block;
      background-color: aliceblue;
-    margin: -13px -10px 10px -10px;
     text-align: center;
 }
 
@@ -19,26 +18,59 @@ body{
     
 }
 .navlist ul{
-    display: flex;
-    justify-content: right;
+    display: block;
     align-content: center;
-    padding: 10px;
-    list-style-type: none;
+    text-align: start;
+    list-style-type:disc;
 }
 
 .navlist ul li a{
-    padding: 10px;
-    text-decoration: none;
-    color:rgb(23, 90, 92);
+
+    padding-right: 10px;
+    
+    text-decoration:double;
+    color:black;
     text-align: center;
 }
 .navlist ul li a:hover{
     background-color: rgb(18, 214, 214);
     border-radius: 40px;
     transition-delay: 20ms;
-    transition-duration: 760ms;
+
     
 }
+.menu{
+    display:flex;
+    justify-content: flex-end;
+     padding: 20px;
+     
+    margin-top: -10px;
+    color: aliceblue;
+    
+    
+
+}
+
+.menu details{
+    background-color: #8888;
+    height:auto;
+
+}
+.menu details summary{
+transition: 200ms;
+content: "\25bc";
+cursor:pointer;
+list-style: none;
+}
+.menu1{
+    font-weight: bold;
+    margin-bottom: -15px;
+    padding: 6px;
+    color: rgb(56, 56, 78);
+    background-color:#8888;
+    
+}
+
 #heading{
     display: block;
     margin: 150px auto 30px auto;
@@ -66,7 +98,7 @@ body{
 }
 .intro{
 font-size: large;
-margin: 0 100px;
+margin: 0 10px;
 padding: 1px;
 }
 #whythis{
@@ -74,7 +106,7 @@ padding: 1px;
     /* height: 300px; */
     /* background-color:mediumorchid; */
     padding: 1px;
-    margin: 0px 100px;
+    margin: 0px 10px;
     font-size: larger;
 }
 .state{
@@ -89,10 +121,15 @@ padding: 1px;
     /* background-color: rgb(248, 195, 20); */
     /* height: 600px; */
 }
+#h2{
+    font-weight:bolder;
+    
+}
 .cards{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap:wrap ;
+      display: flex;
+      flex-wrap: wrap;
+
+      justify-content: space-around;
     }
 /* .cards1{
     display: block;
@@ -107,7 +144,7 @@ padding: 1px;
     background-color: rgb(162, 173, 182);
     border: 3px solid rgb(70, 83, 94);
     border-radius: 5px;
-    width: 415px;
+    width: 380px;
     padding: 20px;
     margin: 5px;
     height: 240px;
@@ -141,7 +178,7 @@ padding: 1px;
 .working{
     text-align: center;
     font-size: large;
-    margin: 0px 100px;
+    margin: 0px 10px;
 
 }
 
@@ -332,15 +369,15 @@ border: 1px transparent wheat;
     .intro{
     font-size: large;
     margin: 2px;
-    padding: 0 30px;
+
     
     }
     #whythis{
         text-align: center;
         /* height: 300px; */
         /* background-color:mediumorchid; */
-        padding: 1px;
-        margin: 0 30px;
+
+        
         font-size: larger;
     }
     .state{
@@ -355,8 +392,14 @@ border: 1px transparent wheat;
         /* background-color: rgb(248, 195, 20); */
         /* height: 600px; */
     }
+    #components h2{
+        font-weight: bolder;
+    }
     .cards{
-        display: block;
+        display: flex;
+        width: 100%;
+        background-color: aqua;
+        border-radius: 7px;
         margin: 0 auto;
         
         }
@@ -376,7 +419,7 @@ border: 1px transparent wheat;
         width: 200px;
         padding: 20px;
         margin: 5px;
-        height: 300px;
+        height: 317px;
         
     }
     .card li {
@@ -426,7 +469,7 @@ border: 1px transparent wheat;
         display: block;
         word-wrap:break-word;
         background-color: rgb(162, 173, 182);
-        width: 140px;
+        width: 250px;
         margin: 10px auto;
         padding: 9px;
         border: 3px solid rgb(70, 83, 94);
@@ -435,7 +478,7 @@ border: 1px transparent wheat;
         font-size: 14px;
     }
     .mem{
-        width: 60px;
+        width: 100px;
         padding: 9px;
         border-radius: 100%;
     }
@@ -446,7 +489,7 @@ border: 1px transparent wheat;
          }
     .bio1{
         display: block;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
         
     
