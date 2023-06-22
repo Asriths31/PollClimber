@@ -318,7 +318,7 @@ border: 1px transparent wheat;
         text-align: start;
         
     }
-    .navlist ul{
+    /* .navlist ul{
         display: block;
         list-style-type: none;
         text-align: right;
@@ -332,7 +332,7 @@ border: 1px transparent wheat;
         text-decoration: none;
         color:rgb(23, 90, 92);
         text-align: center;
-    }
+    } */
     .navlist ul li a:hover{
         background-color: rgb(18, 214, 214);
         border-radius: 40px;
