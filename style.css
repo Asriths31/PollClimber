@@ -1,13 +1,13 @@
 
 body{
     display: block;
-     background-color: aliceblue;
+     background-color:aliceblue;
     text-align: center;
 }
 
-#nav{
+/* #nav{
     background-color: rgb(219, 231, 241);
-    height: 100px;
+    height: 0px;
     box-shadow: 50px;
     margin-bottom: 40px;
     position: fixed;
@@ -16,52 +16,70 @@ body{
     right: 0;
     box-shadow:3px 7px 10px #8888;
     
-}
-.navlist ul{
-    display: block;
-    align-content: center;
-    text-align: start;
-    list-style-type:disc;
-}
+} */
 
-.navlist ul li a{
-
-    padding-right: 10px;
+/* .nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
     
-    text-decoration:double;
-    color:black;
-    text-align: center;
-}
-.navlist ul li a:hover{
+} */
+/* .navlist {
+    display: block;
+    text-align:end;
+    height: auto;
+    
+} */
+
+
+.list ul li a:hover{
     background-color: rgb(18, 214, 214);
     border-radius: 40px;
     transition-delay: 20ms;
-
-    
 }
 .menu{
-    display:flex;
-    justify-content: flex-end;
-     padding: 20px;
-     
-    margin-top: -10px;
-    color: aliceblue;
+        text-align: end;
+     margin-top: 10px;
+    color: rgb(27, 116, 194);
     
-    
-
+}
+#nav{
+    background-color: black;
+    height: auto;
 }
 
-.menu details{
-    background-color: #8888;
-    height:auto;
-
+.menu details{ 
+    color: rgb(80, 99, 116);
+    width:100%;
+    background-color: rgb(80, 99, 116);
+    min-height: 36px;
+    height:auto ;
+    box-shadow: 50px;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    box-shadow:3px 7px 10px #a58d8d88;
+    border-radius: 4px;
 }
 .menu details summary{
 transition: 200ms;
-content: "\25bc";
 cursor:pointer;
 list-style: none;
+
 }
+.list ul li a{
+    color:rgb(21, 66, 66);
+    text-decoration: none;
+    width: 100%;
+    list-style-type: none;
+    text-align: end;
+    padding: 7px;
+    margin: 3px;
+    text-align: start;
+}
+
 .menu1{
     font-weight: bold;
     margin-bottom: -15px;
@@ -73,7 +91,8 @@ list-style: none;
 
 #heading{
     display: block;
-    margin: 150px auto 30px auto;
+    margin: 120px auto 30px auto;
+
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     /* height: 70px; */
@@ -100,6 +119,7 @@ list-style: none;
 font-size: large;
 margin: 0 10px;
 padding: 1px;
+text-align: center;
 }
 #whythis{
     text-align: center;
@@ -122,7 +142,7 @@ padding: 1px;
     /* height: 600px; */
 }
 #h2{
-    font-weight:bolder;
+    font-weight:bold;
     
 }
 .cards{
@@ -141,7 +161,7 @@ padding: 1px;
 .card{
     display: flex;
     align-items: center;
-    background-color: rgb(162, 173, 182);
+    background-color: rgb(145, 151, 156);
     border: 3px solid rgb(70, 83, 94);
     border-radius: 5px;
     width: 380px;
@@ -305,9 +325,9 @@ border: 1px transparent wheat;
     }
 
     
-    #nav{
+    /* #nav{
         background-color: rgb(219, 231, 241);
-        height: 100px;
+        height: 50px;
         box-shadow: 50px;
         margin-bottom: 40px;
         position: fixed;
@@ -317,7 +337,7 @@ border: 1px transparent wheat;
         box-shadow:3px 7px 10px #8888;
         text-align: start;
         
-    }
+    } */
     /* .navlist ul{
         display: block;
         list-style-type: none;
@@ -343,7 +363,7 @@ border: 1px transparent wheat;
     }
     #heading h1{
         display: block;
-        margin: 150px auto 30px auto;
+        /* margin: 15px auto 30px auto; */
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align:center;
         /* height: 70px; */
@@ -398,7 +418,7 @@ border: 1px transparent wheat;
     .cards{
         display: flex;
         width: 100%;
-        background-color: aqua;
+        
         border-radius: 7px;
         margin: 0 auto;
         
