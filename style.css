@@ -120,7 +120,7 @@ border-radius: 20px;
 }
 #components{
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     
@@ -145,11 +145,11 @@ border-radius: 20px;
     display: flex;
     align-items: center;
     color: aliceblue;
-    background-color: #065663;
+    background-color: rgb(3, 91, 126);
     border: 5px solid rgb(120, 120, 138);
     border-radius: 5px;
     width: 400px;
-    padding: 20px;
+    padding: 17px;
     margin: 5px;
     height: 280px;
     font-size: auto;
@@ -199,7 +199,7 @@ border-radius: 20px;
 }
 .info{
     display: block;
-    background-color: #065663;
+    background-color: rgb(3, 91, 126);
     border: 5px solid rgb(120, 120, 138);
     width: 320px;
     margin: 10px auto;
