@@ -42,16 +42,25 @@ section{
     margin:10px 0 40px 100px;
 }
 .nav1{
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: rgb(3, 91, 126);
     margin: -10px;
     border-bottom-left-radius:20px ;
     border-bottom-right-radius:20px ;
-    height: 70px;
-    box-shadow: 30px;
+    box-shadow: 1px 2px 50px black;
+    height: 80px;
 
 }
+/* .fixed{
+    position: fixed;
+    width:1300px;
+    margin-top: -108px;
+    height: 80px;
+} */
 .elements{
     display: flex;
     width: 40%;
@@ -137,24 +146,38 @@ border-radius: 20px;
 .cards{
       display: flex;
       flex-wrap: wrap;
-
       justify-content: space-around;
     }
+    .card:hover{
+        transform: scale(1.06);
+        overflow: hidden;
+    }
+ .zoom{
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(120, 120, 138);
+    background-color: rgb(19, 98, 129);
+    overflow: hidden;
+    margin: 5px;
+    padding: 1px;
 
+ }
 .card{
     display: flex;
     align-items: center;
     color: aliceblue;
-    background-color: rgb(3, 91, 126);
-    border: 5px solid rgb(120, 120, 138);
+    background-color: rgb(19, 98, 129);
+    /* border: 5px solid rgb(120, 120, 138); */
     border-radius: 5px;
     width: 400px;
     padding: 17px;
     margin: 5px;
     height: 280px;
     font-size: auto;
+    /* overflow: hidden; */
     
 }
+
 .card li {
     padding-bottom: 20px;
     text-align: start;
@@ -199,7 +222,7 @@ border-radius: 20px;
 }
 .info{
     display: block;
-    background-color: rgb(3, 91, 126);
+    background-color: rgb(19, 98, 129);
     border: 5px solid rgb(120, 120, 138);
     width: 320px;
     margin: 10px auto;
