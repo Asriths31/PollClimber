@@ -5,6 +5,21 @@ body{
     text-align: center;
     font-family: montserrat;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.top{
+    margin-top: 7rem;
+}
+.comp{
+    height: 250vh;
+}
+.gro{
+    height: 200vh;
+}
 .navlist{
     display: none;
 }
@@ -85,21 +100,27 @@ body{
 .intro{
 font-size: large;
 margin: 0 10px;
-padding: 1px;
+padding: 3vh;
 text-align: center;
+background-image: radial-gradient(white,rgb(3, 91, 126));
+
+border-radius: 20px;
+
 }
 #whythis{
     text-align: center;
-    padding: 1px;
+    padding: 3vh;
     margin: 0px 10px;
     font-size: larger;
+    background-image: radial-gradient(white,rgb(3, 91, 126));
+    border-radius: 20px;
 }
 .state{
     font-weight: bold;
 }
 #components{
     display: block;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     
@@ -123,7 +144,8 @@ text-align: center;
 .card{
     display: flex;
     align-items: center;
-    background-color: #158596;
+    color: aliceblue;
+    background-color: #065663;
     border: 5px solid rgb(120, 120, 138);
     border-radius: 5px;
     width: 400px;
@@ -161,7 +183,10 @@ text-align: center;
     text-align: center;
     font-size: large;
     margin: 0px 10px;
-
+    background-image: radial-gradient(white,rgb(3, 91, 126));
+    border-radius: 20px;
+    padding: 3vh;
+  
 }
 
 .flow{
@@ -174,7 +199,7 @@ text-align: center;
 }
 .info{
     display: block;
-    background-color: #158596;
+    background-color: #065663;
     border: 5px solid rgb(120, 120, 138);
     width: 320px;
     margin: 10px auto;
@@ -243,7 +268,7 @@ text-align: center;
     padding: 20px;
 }
 .lfoot i:hover{
-    color:rgb(78, 19, 216) ;
+    color:aqua ;
     transform: scale(0.9);
 
 }
@@ -357,7 +382,15 @@ text-align: center;
 
 }
 
-
+section{
+    height: 190vh;
+}
+.comp{
+    height:450vh;
+}
+.gro{
+    height: 200vh;
+}
  #heading {
         
         text-align:center;
