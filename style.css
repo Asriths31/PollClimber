@@ -156,7 +156,7 @@ border-radius: 20px;
     display: flex;
     align-items: center;
     border: 5px solid rgb(120, 120, 138);
-    background-color: rgb(19, 98, 129);
+    background-color: rgb(12, 133, 180);
     overflow: hidden;
     margin: 5px;
     padding: 1px;
@@ -166,7 +166,7 @@ border-radius: 20px;
     display: flex;
     align-items: center;
     color: aliceblue;
-    background-color: rgb(19, 98, 129);
+    background-color: rgb(12, 133, 180);
     /* border: 5px solid rgb(120, 120, 138); */
     border-radius: 5px;
     width: 400px;
@@ -222,7 +222,7 @@ border-radius: 20px;
 }
 .info{
     display: block;
-    background-color: rgb(19, 98, 129);
+    background-color: rgb(12, 133, 180);
     border: 5px solid rgb(120, 120, 138);
     width: 320px;
     margin: 10px auto;
@@ -273,7 +273,6 @@ border-radius: 20px;
     color:aliceblue;
     margin-left: -12px;
     width: 100%;
-    
 }
 .foot{
     display: flex;
@@ -344,10 +343,14 @@ border-radius: 20px;
 .navlist{
     display: flex;
     justify-content: space-between;
-    width: auto;
+    width: 100%;
     background-color: rgb(3, 91, 126);
-    height: 80px;
-    margin: -10px;
+    height: 70px;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .nav5{
     margin: 20px 25px 0 0;
@@ -406,7 +409,8 @@ border-radius: 20px;
 }
 
 section{
-    height: 190vh;
+    height: 110vh;
+    margin-top: 15vh;
 }
 .comp{
     height:450vh;
@@ -417,7 +421,7 @@ section{
  #heading {
         
         text-align:center;
-        margin: 170px auto 20px auto;
+        margin: 240px auto 20px auto;
         width: 200px;
         }
     
