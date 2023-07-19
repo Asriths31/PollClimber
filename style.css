@@ -414,14 +414,15 @@ border-radius: 20px;
 }
 
 section{
-    height: 110vh;
-    /* margin-top: 15vh; */
+    display: block;
+    height: auto;
+    margin-top: 15px;
 }
 /* .comp{
-    height:450vh;
+    height:310vh;
 }
 .gro{
-    height: 200vh;
+    height: 210vh;
 } */
  #heading {
         
