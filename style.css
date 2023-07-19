@@ -416,14 +416,22 @@ border-radius: 20px;
 section{
     display: block;
     height: auto;
-    margin-top: 15px;
+
+    margin: 150px auto;
 }
-/* .comp{
-    height:310vh;
+#working1{
+margin-top: 550px;}
+#gro{
+    margin-top: -50px;
+    height:auto
 }
-.gro{
-    height: 210vh;
-} */
+#comp{
+    margin-bottom: 150vh;
+}
+#intro1{
+    margin-top: -170px;
+}
+
  #heading {
         
         text-align:center;
@@ -450,6 +458,7 @@ section{
     .intro{
     font-size: large;
     margin: 2px;
+
 
     
     }
