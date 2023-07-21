@@ -43,29 +43,24 @@ section{
     height: 50px;
     margin:10px 0 40px 100px;
 }
-nav{
-    height: 100vh;
-}
+
 .nav1{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: rgb(3, 91, 126);
-    margin: -10px;
     border-bottom-left-radius:20px ;
     border-bottom-right-radius:20px ;
     box-shadow: 1px 2px 50px black;
     height: 80px;
-
+    
 }
-/* .fixed{
-    position: fixed;
-    width:1300px;
-    margin-top: -108px;
-    height: 80px;
-} */
+.fixed{
+    margin-bottom: 180px;
+}
 .elements{
     display: flex;
     width: 40%;
@@ -91,7 +86,7 @@ nav{
 }
 #heading{
     display: block;
-    margin: 15px auto 30px auto;
+    margin: 65px auto 30px auto;
     text-align: center;
     width: 30%;
     border: 2px  black;
@@ -425,7 +420,7 @@ section{
     height:auto
 }
 #comp{
-    margin-bottom: 1070px;
+    margin-bottom: 1050px;
 }
 #intro1{
     margin-top: -170px;
