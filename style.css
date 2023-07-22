@@ -73,10 +73,7 @@ section{
     padding: 10px 10px 10px 10px;
     
 }
-.user:hover{
-    color: #d6517c;
-    border-radius: 40px;
-}
+
 #last{
     margin-right: 50px;
 }
@@ -156,7 +153,7 @@ border-radius: 20px;
     display: flex;
     align-items: center;
     border: 5px solid rgb(120, 120, 138);
-    background-color: rgb(12, 133, 180);
+    background-color: #319dbb;
     overflow: hidden;
     margin: 5px;
     padding: 1px;
@@ -165,8 +162,8 @@ border-radius: 20px;
 .card{
     display: flex;
     align-items: center;
-    color: aliceblue;
-    background-color: rgb(12, 133, 180);
+    color: black;
+    background-color: #319dbb;
     /* border: 5px solid rgb(120, 120, 138); */
     border-radius: 5px;
     width: 400px;
@@ -222,7 +219,7 @@ border-radius: 20px;
 }
 .info{
     display: block;
-    background-color: rgb(12, 133, 180);
+    background-color: #319dbb;
     border: 5px solid rgb(120, 120, 138);
     width: 320px;
     margin: 10px auto;
@@ -422,10 +419,6 @@ section{
 #comp{
     margin-bottom: 1250px;
 }
-#intro1{
-    margin-top: -170px;
-}
-
  #heading {
         
         text-align:center;
