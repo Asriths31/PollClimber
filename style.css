@@ -420,7 +420,7 @@ section{
     height:auto
 }
 #comp{
-    margin-bottom: 1050px;
+    margin-bottom: 1250px;
 }
 #intro1{
     margin-top: -170px;
@@ -524,7 +524,7 @@ section{
         text-align: center;
         font-size: large;
         margin: 2px;
-        padding: 0 30px;
+        padding: 30px;
     
     }
     
@@ -532,6 +532,7 @@ section{
         width: 100%;
         display: flex;
         justify-content: center;
+
         
     }
     .flow{
