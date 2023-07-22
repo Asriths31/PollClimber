@@ -417,7 +417,7 @@ section{
     height:auto
 }
 #comp{
-    margin-bottom: 1250px;
+    margin-bottom: 130rem;
 }
  #heading {
         
@@ -574,12 +574,15 @@ section{
         
         }
     .footer{
+        position: absolute;
+
          margin-top: 26px;
          width: 100%;
-         margin-left: -13px;
+        
         text-align: center;
         color:aliceblue;
-        
+        right:0;
+        left:0;
     }
     .foot{
         display: block;
@@ -601,7 +604,7 @@ section{
     .about{
         display: block;
         width: 100%;
-        
+        margin-left: -8vw;
         color: aliceblue;
         text-align: cente
         
@@ -611,6 +614,11 @@ section{
         justify-content: space-around;
         
     }
+    .contact{
+        margin-right: 10px;
+        margin-left: -37px;
+        overflow-wrap: break-word;
+    }
     .contact h4{
         color: aliceblue;
         text-align: center;
@@ -618,11 +626,15 @@ section{
     }
     .contact span{
         color:aqua;
-        margin-left: 9px;
+        /* margin-left: 9px; */
+
     }
     .contact p{
         color: aliceblue;
     }
+    /* .contact ul li p a span{
+        padding-right: 10px;
+    } */
     .icons{
     text-align: start;
     border: 1px transparent wheat;
