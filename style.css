@@ -432,7 +432,9 @@ section{
         text-align: center;
         margin: 0 auto;
     }
-    
+    #work{
+        margin-top: -23vh;
+    }
     .photo2{
         height: 350px;
         border:2px solid rgb(49, 30, 30);
